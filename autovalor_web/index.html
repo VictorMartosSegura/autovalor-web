@@ -1,1 +1,145 @@
-PLACEHOLDER
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AutoValor — App Android de compraventa de vehículos con inteligencia artificial." />
+  <title>AutoValor · App de vehículos con IA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#top"><span class="logo-mark">A</span>AutoValor</a>
+    <nav class="nav-links">
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#capturas">Capturas</a>
+      <a href="#funcionalidades">Funcionalidades</a>
+      <a href="#stack">Tecnología</a>
+      <a href="#descargar" class="nav-cta">Descargar APK</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-grid"></div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="badge"><span></span>Proyecto Final DAM · Víctor Martos</div>
+          <h1>Vende tu coche.<br>La <em>IA</em> se encarga<br>del anuncio.</h1>
+          <p class="hero-desc">AutoValor analiza las fotos de tu vehículo y genera automáticamente un anuncio completo con título, descripción y datos técnicos. Tú solo revisas y publicas.</p>
+          <div class="hero-actions">
+            <a href="./downloads/AutoValor.apk" download class="btn-primary">⬇ Descargar APK</a>
+            <a href="#como-funciona" class="btn-ghost">Ver el proyecto</a>
+          </div>
+          <div class="hero-stats">
+            <div><b>Ionic Vue</b><span>Frontend móvil</span></div>
+            <div><b>Spring Boot</b><span>API REST + JWT</span></div>
+            <div><b>OpenAI GPT-4o</b><span>Motor de IA</span></div>
+          </div>
+        </div>
+
+        <div class="hero-phones">
+          <article class="phone phone-back wishlist-phone" aria-label="Pantalla Wishlist de AutoValor">
+            <div class="phone-inner light-screen">
+              <div class="wishlist-header"><span>←</span><strong>My Wishlist</strong><span>♡ 🔍</span></div>
+              <div class="wish-grid">
+                <div class="wish-card"><div class="car-img yellow-car"></div><b>Lamborghini Huracan EVO</b><small>★ 2021 · AVAILABLE</small><strong>235.000 €</strong></div>
+                <div class="wish-card"><div class="car-img black-car"></div><b>McLaren GT Black Edition</b><small>★ 2021 · AVAILABLE</small><strong>189.000 €</strong></div>
+                <div class="wish-card"><div class="car-img subaru-car"></div><b>Subaru WRX STI</b><small>★ 2018 · AVAILABLE</small><strong>36.500 €</strong></div>
+              </div>
+              <div class="tabbar"><span>⌂<small>Home</small></span><span>▣<small>Orders</small></span><span>▭<small>Sell</small></span><span>☏<small>Messages</small></span><span>♙<small>Profile</small></span></div>
+            </div>
+          </article>
+
+          <article class="phone phone-main detail-phone" aria-label="Detalle de vehículo de AutoValor">
+            <div class="phone-inner light-screen">
+              <div class="detail-top"><span>←</span><span>♡</span></div>
+              <div class="detail-image subaru-big"></div>
+              <div class="dots"><i></i><i></i></div>
+              <h2>Subaru WRX STI</h2>
+              <p class="listed">Listed on 16 May 2026</p>
+              <div class="chips"><span>Available</span><span>2018</span><span>79.000 km</span><span>Gasoline</span></div>
+              <h3>Description</h3>
+              <p class="desc">Subaru WRX STI con tracción total, configuración deportiva y muy buen estado general.</p>
+              <h3>Vehicle details</h3>
+              <div class="details-grid"><div><small>Brand</small><b>Subaru</b></div><div><small>Model</small><b>WRX STI</b></div><div><small>Transmission</small><b>Manual</b></div></div>
+              <div class="seller"><div class="seller-logo">A</div><div><b>Pruebas 8</b><small>Private seller</small></div><span>💬 ☎</span></div>
+              <div class="bottom-buy"><div><small>Price</small><b>36.500 €</b></div><button>Make offer</button><button class="contact">Contact</button></div>
+            </div>
+          </article>
+
+          <div class="float-tag tag-top">✦ Capturas reales de la app</div>
+          <div class="float-tag tag-bot">▯ APK lista para Android</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="como-funciona">
+      <div class="container">
+        <div class="section-label">Cómo funciona</div>
+        <h2 class="section-title">Tres pasos para publicar un anuncio de calidad.</h2>
+        <div class="steps">
+          <article class="step"><span>01</span><h3>Sube las fotos</h3><p>La app guía al usuario con fotos recomendadas: frontal, posterior, lateral, interior, salpicadero y motor.</p></article>
+          <article class="step"><span>02</span><h3>La IA analiza</h3><p>OpenAI analiza las imágenes y devuelve marca, modelo, título, descripción, confianza y avisos.</p></article>
+          <article class="step"><span>03</span><h3>Revisas y publicas</h3><p>La propuesta siempre es editable. Ningún anuncio se publica automáticamente.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="capturas">
+      <div class="container">
+        <div class="section-label">Capturas de AutoValor</div>
+        <h2 class="section-title">La web ahora representa la app real.</h2>
+        <div class="capture-grid">
+          <div class="capture-card"><div class="mini-phone detail-mini"><div class="detail-image subaru-big"></div><h3>Subaru WRX STI</h3><div class="chips"><span>Available</span><span>2018</span></div></div><h3>Detalle de vehículo</h3><p>Galería, descripción, datos técnicos, vendedor, precio y acciones de contacto.</p></div>
+          <div class="capture-card"><div class="mini-phone wishlist-mini"><div class="wishlist-header"><strong>My Wishlist</strong></div><div class="wish-card"><div class="car-img yellow-car"></div><b>Lamborghini Huracan EVO</b><strong>235.000 €</strong></div><div class="wish-card"><div class="car-img subaru-car"></div><b>Subaru WRX STI</b><strong>36.500 €</strong></div></div><h3>Wishlist</h3><p>Favoritos con tarjetas de coches, disponibilidad, año y precio visible.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="funcionalidades">
+      <div class="container">
+        <div class="section-label">Funcionalidades</div>
+        <h2 class="section-title">Todo el flujo de compraventa en una sola app.</h2>
+        <div class="features">
+          <article class="feature large"><h3>✦ AutoValor AI</h3><p>Envía fotos al backend, construye un prompt estructurado y llama a OpenAI. La respuesta incluye datos técnicos, descripción, confidence y warnings.</p></article>
+          <article class="feature"><h3>🔐 JWT</h3><p>Registro, login y roles USER / ADMIN.</p></article>
+          <article class="feature"><h3>🚗 Anuncios</h3><p>CRUD de vehículos con marca, modelo, precio, km y estado.</p></article>
+          <article class="feature"><h3>📸 Cloudinary</h3><p>Subida y borrado de imágenes en la nube.</p></article>
+          <article class="feature"><h3>❤️ Wishlist</h3><p>Guarda vehículos favoritos.</p></article>
+          <article class="feature"><h3>📊 Admin</h3><p>Gestión de usuarios, anuncios y mensajes.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="stack">
+      <div class="container">
+        <div class="section-label">Stack técnico</div>
+        <h2 class="section-title">Tecnologías utilizadas.</h2>
+        <div class="stack-grid">
+          <div><b>Frontend</b><span>Ionic Vue · Vue 3 · TypeScript · Vite · Capacitor · Pinia</span></div>
+          <div><b>Backend</b><span>Java 21 · Spring Boot · Spring Security · JWT · JPA</span></div>
+          <div><b>Servicios</b><span>PostgreSQL Aiven · Cloudinary · OpenAI · Swagger · Vercel</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="download-section" id="descargar">
+      <div class="container download-container">
+        <div>
+          <div class="section-label">Android · APK directa</div>
+          <h2>Prueba AutoValor en tu móvil.</h2>
+          <p>Descarga e instala la APK en cualquier dispositivo Android. Android puede pedirte permitir la instalación desde orígenes desconocidos.</p>
+          <a href="./downloads/AutoValor.apk" download class="btn-download">⬇ Descargar AutoValor.apk</a>
+          <p class="download-note">Proyecto Final DAM · Institut Puig Castellar · 2026</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><p>AutoValor · Víctor Martos Segura</p><div><a href="https://github.com/VictorMartosSegura/autovalor">Backend</a><a href="https://github.com/VictorMartosSegura/autovalor_frontend">Frontend</a><a href="./downloads/AutoValor.apk" download>APK</a></div></footer>
+</body>
+</html>
